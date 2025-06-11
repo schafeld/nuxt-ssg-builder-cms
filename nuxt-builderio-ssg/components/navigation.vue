@@ -2,7 +2,8 @@
   <nav>
     <ul>
       <li><NuxtLink to="/">Home</NuxtLink></li>
-      <li><NuxtLink to="/about-me">About Me</NuxtLink></li>
+      <li><NuxtLink to="/about-me">About Me (defined route)</NuxtLink></li>
+      <li><NuxtLink to="/builder">Builder (...app catch-all route)</NuxtLink></li>
     </ul>
   </nav>
 </template>
