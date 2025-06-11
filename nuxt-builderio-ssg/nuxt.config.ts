@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/about-me'] // Pre-render our target page
+      routes: ['/', '/about-me'] // Pre-render our target page
     },
     // // For continuous updates without rebuilds:
     // routeRules: {
